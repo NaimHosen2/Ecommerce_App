@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/details_pages.dart';
 import 'package:flutter/material.dart';
 
 class HomePages extends StatefulWidget {
@@ -64,7 +65,9 @@ class _HomePagesState extends State<HomePages> {
                       },
                       separatorBuilder: (context, indext) {
                         return InkWell(
-                          onTap: () {},
+                          onTap: () {
+                             Navigator.push(context, MaterialPageRoute(builder: (context)=>const DetailsPages(ptoductDetails: {},)));
+                          },
                           child: Container(
                             height:150,
                             decoration: BoxDecoration(
@@ -107,3 +110,4 @@ class _HomePagesState extends State<HomePages> {
     );
   }
 }
+

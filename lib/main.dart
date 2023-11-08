@@ -1,5 +1,6 @@
 
 import 'package:ecommerce_app/Registration/login_pages.dart';
+import 'package:ecommerce_app/details_pages.dart';
 import 'package:flutter/material.dart';
 
 void main() {
